@@ -14,17 +14,17 @@ const router = createRouter({
             component: () => import("../views/lobby.vue"),
             children: [
                 {
-                    path: "aboutMe",
+                    path: "/aboutMe",
                     name: "aboutMe",
                     component: () => import("../views/aboutMe.vue"),
                 },
                 {
-                    path: "myExperience",
+                    path: "/myExperience",
                     name: "myExperience",
                     component: () => import("../views/myExperience.vue"),
                 },
                 {
-                    path: "myHobbit",
+                    path: "/myHobbit",
                     name: "myHobbit",
                     component: () => import("../views/myHobbit.vue"),
                 },
